@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+.conteudo,
+.logo,
+.menu {
+  width: 1250px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+.linha-horizontal {
+  height: 1px;
+  margin: 3px 0;
+  background-color: #f5f6f7;
+}
+
+.linha-vertical {
+  height: 100%;
+  width: 1px;
+  margin: 0 30px;
+  background-color: #f5f6f7;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.logo img {
+  width: 171px;
+}
+
+.menu {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.manchete h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  margin-bottom: 30px;
+}
+
+.manchete p {
+  font-size: 18px;
+  color: #303134;
+  font-weight: 500;
+  margin: 20px 0;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+
+.menu a:hover {
+  filter: brightness(1.6);
+}
+
+.menu a:nth-child(1) {
+  color: #c3170c;
+}
+
+.menu a:nth-child(2) {
+  color: #1e4b9b;
+}
+
+.menu a:nth-child(3) {
+  color: #006766;
+}
+
+.menu a:nth-child(4) {
+  color: #07aa47;
+}
+
+.menu a:nth-child(5) {
+  color: #e3662b;
+}
+
+.menu a:nth-child(6) {
+  color: #fb0735;
+}
+
+.menu a:nth-child(7) {
+  color: #ff75bb;
+}
+
+.menu a:nth-child(8) {
+  color: #ec7d00;
+}
+
+.menu a:nth-child(9) {
+  color: #323333;
+}
+
+.menu a:nth-child(10) {
+  color: #a81d83;
+}
+
+.noticias {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticia p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.noticia img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+
+.titulo-vermelho {
+  color: #c4170c;
+  font-weight: 500;
+}
+
+.titulo-verde {
+  color: #16ae54;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.titulo-laranja {
+  color: #ec8006;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.noticias-coluna img {
+  margin: 20px 0;
+}
+.noticia h3 {
+  color: #2f3134;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titulo-cinza {
+  font-weight: 400;
+  color: #2f3134;
+}
+.noticias-direita {
+  width: 622px;
+}
+
+.noticias-esquerda {
+  margin: 10px 0;
+  width: 626px;
+  display: flex;
+  justify-content: space-between;
+}
